@@ -84,36 +84,77 @@ function node(val){
 let tree = new node(5);
 let tree2 = tree.left = new node(4)
 let tree3 = tree.right = new node(8)
-
 tree2.parent = tree;
 tree3.parent = tree;
-
 let tree4 = tree2.left = new node(3)
 // let tree5 = tree2.right = new node(60)
-
 tree4.parent = tree2;
 // tree5.parent = tree2;
-
 let tree6 = tree3.left = new node(6)
 let tree7 = tree3.right = new node(9)
-
 tree6.parent = tree3;
 tree7.parent = tree3;
-
 // let tree8 = tree4.left = new node(8)
 // let tree9 = tree4.left = new node(9)
 // let tree10 = tree5.left = new node(6)
 let tree11 = tree6.right = new node(7)
-
 // tree10.parent = tree5;
 tree11.parent = tree6;
-
-
 // let tree12 = tree6.left = new node(6)
 let tree13 = tree7.right = new node(10)
-
 // tree12.parent = tree6;
-tree13.parent = tree6;
+tree13.parent = tree7;
 ///////////////////////////////////////////
+
+let tree = new node(5);
+let tree2 = tree.left = new node(4)
+let tree3 = tree.right = new node(8)
+tree2.parent = tree;
+tree3.parent = tree;
+let tree4 = tree2.left = new node(3)
+// let tree5 = tree2.right = new node(60)
+tree4.parent = tree2;
+// tree5.parent = tree2;
+let tree6 = tree3.left = new node(6)
+let tree7 = tree3.right = new node(9)
+tree6.parent = tree3;
+tree7.parent = tree3;
+// let tree8 = tree4.left = new node(8)
+// let tree9 = tree4.left = new node(9)
+// let tree10 = tree5.left = new node(6)
+let tree11 = tree6.right = new node(7)
+// tree10.parent = tree5;
+tree11.parent = tree6;
+// let tree12 = tree6.left = new node(6)
+let tree13 = tree7.right = new node(10)
+// tree12.parent = tree6;
+tree13.parent = tree7;
+///////////////////////////////////////////
+
+let tree = new node(5);
+let tree2 = tree.left = new node(4)
+let tree3 = tree.right = new node(8)
+tree2.parent = tree;
+tree3.parent = tree;
+let tree4 = tree2.left = new node(3)
+// let tree5 = tree2.right = new node(60)
+tree4.parent = tree2;
+// tree5.parent = tree2;
+let tree6 = tree3.left = new node(6)
+let tree7 = tree3.right = new node(9)
+tree6.parent = tree3;
+tree7.parent = tree3;
+// let tree8 = tree4.left = new node(8)
+// let tree9 = tree4.left = new node(9)
+// let tree10 = tree5.left = new node(6)
+let tree11 = tree6.right = new node(7)
+// tree10.parent = tree5;
+tree11.parent = tree6;
+// let tree12 = tree6.left = new node(6)
+let tree13 = tree7.right = new node(10)
+// tree12.parent = tree6;
+tree13.parent = tree7;
+///////////////////////////////////////////
+
 
 console.log(secondLargest(tree) === 9)
