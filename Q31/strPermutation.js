@@ -22,7 +22,7 @@ function swap(str) {
 	return str;
 }
 
-let output = strPermutation('cat')
+let output = strPermutation('cate')
 console.log(output)
 
 // let i = 1;
